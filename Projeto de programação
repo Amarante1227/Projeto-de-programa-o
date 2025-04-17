@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="stylesheet" href="style.css">
+     <title>Meu portfólio</title>
+ </head>
+ 
+ <body>
+     <header class="container text-center">
+         <img src="img/avatar-perfil.png" alt="avatar de amilton" class="rounded-circle" width="150" height="150"
+             srcset="">
+         <p class="lead">Eu sou Amilton_</p>
+         <h1>Projeto de programação</h1>
+         <p>Minhas habilidades</p>
+         <div>
+             <p class="badge bg-secondary">ingles intermediário</p>
+             <p class="badge bg-secondary">scratch</p>
+             <p class="badge bg-secondary">Aprendendo informática adm</p>
+         </div>
+     </header>
+     <main class="container mt-5">
+                     </div> <p class="lead">Este projeto é para compor a nota trimestral referente a disciplina de programação em HTML</p>
+                 </div> <p class="lead">Este projeto é simples e serviria como portifólio porém não tenho nadá a ser adicionado como projeto neste portifólio então complementarei este espaço com uma pequena biográfia</p>
+                <h1> Pequena Biográfia</h1>
+                </div> <p class="lead">Meu nome é Amilton estou aprendendo a programar em Lua para criar um jogo junto com meus colegas,
+                 sou intercâmbista e por isso estou aprendendo inglês, entendo um pouco sobre as linguagens Scratch, p5.Java editor</p>
+         </div>
+     </main>
+ 
+     <!-- Modal 1 -->
+     <div class="modal" id="modal1" tabindex="-1">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                 <div class="modal-footer">
+                     <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                     <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Modal 2 -->
+     <div class="modal" id="modal2" tabindex="-1">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <img src="img/projeto-2.png" class="img-fluid w-100"
+                         alt="Imagem representativa do projeto de uma biblioteca online">
+                 </div>
+                 <div class="modal-footer">
+                     <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                         vivo</a>
+                     <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                         projeto</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+ 
+     <!-- Modal 3 -->
+     <div class="modal" id="modal3" tabindex="-1">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <p></p>
+                     <p></p>
+                     <p></p>
+                     <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                 </div>
+                 <div class="modal-footer">
+                     <a href="https://scratch.mit.edu/projects/951732825/"></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <footer class="container py-5">
+         <h2></h2>
+         <div>
+             <i class="bi bi-github"></i>
+             <a href="https://github.com/femascheti">GitHub</a>
+         </div>
+         <p class="my-5 text-center"></p>
+     </footer>
+ 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+ 
+ </html>
